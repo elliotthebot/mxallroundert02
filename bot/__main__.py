@@ -29,8 +29,8 @@ def stats(update, context):
     cpuUsage = psutil.cpu_percent(interval=0.5)
     memory = psutil.virtual_memory().percent
     disk = psutil.disk_usage('/').percent
-    stats = f'<b>𝐈 𝐜𝐨𝐮𝐥𝐝 𝐞𝐢𝐭𝐡𝐞𝐫 𝐰𝐚𝐭𝐜𝐡 𝐢𝐭 𝐡𝐚𝐩𝐩𝐞𝐧 𝐨𝐫 𝐛𝐞 𝐚 𝐩𝐚𝐫𝐭 𝐨𝐟 𝐢𝐭</b>\n\n' \
-            f'<b>╭─────────「 Infinitex Mirror Bot  」</b>\n' \
+    stats = f'<b>𝐓𝐡𝐞𝐫𝐞 𝐚𝐫𝐞 𝐧𝐨 𝐬𝐞𝐜𝐫𝐞𝐭𝐬 𝐭𝐨 𝐬𝐮𝐜𝐜𝐞𝐬𝐬. 𝐈𝐭 𝐢𝐬 𝐭𝐡𝐞 𝐫𝐞𝐬𝐮𝐥𝐭 𝐨𝐟 𝐩𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧, 𝐡𝐚𝐫𝐝 𝐰𝐨𝐫𝐤, 𝐚𝐧𝐝 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐟𝐫𝐨𝐦 𝐟𝐚𝐢𝐥𝐮𝐫𝐞</b>\n\n' \
+            f'<b>╭─────────「  MirrorX Bot  」</b>\n' \
             f'<b>│</b>\n' \
             f'<b>├  ⌚Bot Uptime:</b> {currentTime}\n' \
             f'<b>├  💾Total disk space:</b> {total}\n' \
@@ -42,7 +42,7 @@ def stats(update, context):
             f'<b>├  ⛏️RAM:</b> {memory}% \n' \
             f'<b>├  🗄️Disk:</b> {disk}% \n' \
             f'<b>│</b>\n' \
-            f'<b>╰─────────「 INFINITEX  」</b>'
+            f'<b>╰─────────「 @mirrorxy  」</b>'
     sendMessage(stats, context.bot, update)
 
 
